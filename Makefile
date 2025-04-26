@@ -8,6 +8,8 @@ $(VENV):
 	python -m venv $(VENV) 
 	$(PIP) install -r requirements.txt  # installs inside that venv
 
+venv: $(VENV) 
+
 train: $(VENV)
 	$(PYTHON) src/train.py --config configs/default.yaml
 
