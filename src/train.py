@@ -1,4 +1,4 @@
-import lightning as pl
+import pytorch_lightning as pl
 from torch.utils.data import DataLoader
 
 from models.lit_module import LitLinear
