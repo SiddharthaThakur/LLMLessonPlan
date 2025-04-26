@@ -1,0 +1,12 @@
+model:
+  in_dim: 10
+  out_dim: 1
+  lr: 1e-3
+
+data:
+  n: 1024
+  n_val: 256
+
+train:
+  batch_size: 64
+  epochs: 3
